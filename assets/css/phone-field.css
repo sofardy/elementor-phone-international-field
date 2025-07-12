@@ -1,0 +1,55 @@
+/* Стили для поля телефона */
+.elementor-phone-field-wrapper {
+	position: relative;
+}
+
+.elementor-phone-field-wrapper .iti {
+	width: 100%;
+}
+
+.elementor-phone-field-wrapper .iti__flag-container {
+	background-color: #f7f7f7;
+	border-right: 1px solid #d4d4d4;
+}
+
+.elementor-phone-field-wrapper .elementor-field {
+	padding-left: 100px !important;
+}
+
+.elementor-phone-field-wrapper .iti--separate-dial-code .iti__selected-flag {
+	background-color: transparent;
+}
+
+.elementor-phone-field-wrapper .iti--separate-dial-code .iti__selected-dial-code {
+	font-size: 14px;
+	color: #333;
+}
+
+/* Состояние ошибки */
+.elementor-phone-field-wrapper .elementor-field-invalid {
+	border-color: #d9534f !important;
+}
+
+.elementor-phone-error {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #d9534f;
+}
+
+/* Адаптивность */
+@media (max-width: 767px) {
+	.elementor-phone-field-wrapper .elementor-field {
+		padding-left: 90px !important;
+	}
+}
+
+/* Темная тема */
+.elementor-dark-mode .elementor-phone-field-wrapper .iti__flag-container {
+	background-color: #333;
+	border-color: #555;
+}
+
+.elementor-dark-mode .elementor-phone-field-wrapper .iti__selected-dial-code {
+	color: #fff;
+}
